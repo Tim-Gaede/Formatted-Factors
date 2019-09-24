@@ -94,7 +94,7 @@ function primesTo(n::Integer)
         if oddsAlive[i];    push!(primes, 2i + 1); end
     end
 
-    primes
+    primes # returned
 end
 #-------------------------------------------------------------------------------
 
