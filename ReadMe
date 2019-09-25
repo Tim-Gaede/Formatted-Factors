@@ -5,7 +5,7 @@ They use comma separators and superscripts.
 
 Examples:
 
-    julia> println(textFactors!(240051200, primes))
+    julia> println(textFactors!(240_051_200, primes))
 
     240,051,200 = 2¹⁰ × 5² × 9,377¹
 
