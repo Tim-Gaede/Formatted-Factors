@@ -180,7 +180,7 @@ function main()
     primes = primesTo(7)
 
 
-    println(textFactors!(240_051_200, primes))
+    println(textFactors!(240_051_200, primes), "\n"
     nums = [5040, 7680, 10_000, 10_240, 143_496_441, 240_051_200, 1517]
     print(textFactors!(nums, primes)) 
 end
