@@ -2,6 +2,7 @@
 These are functions that return formatted text of the prime factors of a number.  
 They use comma separators and superscripts. 
 
+
 Examples:
 
     julia> println(textFactors!(240051200, primes))
